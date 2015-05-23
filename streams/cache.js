@@ -1,7 +1,5 @@
-// Note that the Cache.store object is shared between every Cache object.
-// Please explain
-// Also, why does the pipe send the stream as unicode instead of characters
-// why do we need something different then the Cache for a writeable stream
+
+
 var stream = require('stream');
 
 function Cache(options) {
